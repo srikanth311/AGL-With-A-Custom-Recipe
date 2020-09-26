@@ -1,6 +1,6 @@
 ## Yocto-Project-1: Creating a sample Yocto project recipe and adding it to Automotive Grade Linux Image
 
-In this article, we will see how to build an AGL image along with a custom meta layer and a sample recipe. These steps are basic understanding steps that we need to understand to build our own custom recipes.
+In this article, we will see how to build an AGL image along with a custom meta layer and a sample recipe. These are basic steps that we need to understand to build our own custom recipes.
 
 #### Steps:
 1. Prepare the build host.
