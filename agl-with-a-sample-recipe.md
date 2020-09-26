@@ -35,7 +35,7 @@ repo sync
 source meta-agl/scripts/aglsetup.sh
 => This creates a build directory and it will take you to that directory.
 => pwd
-/home/ANT.AMAZON.COM/skkodali/agl-yocto/build
+/home/ubuntu/agl-yocto/build
 
 => Now bitbake with minimal image. This process will take 30 mins to 1 hr depending on your machine number of cores.
 ```
@@ -53,20 +53,20 @@ source meta-agl/scripts/aglsetup.sh
 NOTE: Starting bitbake server...
 layer                 path                                      priority
 ==========================================================================
-meta-oe               /home/ANT.AMAZON.COM/skkodali/agl-yocto/external/meta-openembedded/meta-oe  6
-meta-multimedia       /home/ANT.AMAZON.COM/skkodali/agl-yocto/external/meta-openembedded/meta-multimedia  6
-meta-networking       /home/ANT.AMAZON.COM/skkodali/agl-yocto/external/meta-openembedded/meta-networking  5
-meta-python           /home/ANT.AMAZON.COM/skkodali/agl-yocto/external/meta-openembedded/meta-python  7
-meta-filesystems      /home/ANT.AMAZON.COM/skkodali/agl-yocto/external/meta-openembedded/meta-filesystems  6
-meta-agl-profile-core  /home/ANT.AMAZON.COM/skkodali/agl-yocto/meta-agl/meta-agl-profile-core  80
-meta-agl-distro       /home/ANT.AMAZON.COM/skkodali/agl-yocto/meta-agl/meta-agl-distro  70
-meta-agl-bsp          /home/ANT.AMAZON.COM/skkodali/agl-yocto/meta-agl/meta-agl-bsp  60
-meta-security         /home/ANT.AMAZON.COM/skkodali/agl-yocto/external/meta-security  8
-meta-perl             /home/ANT.AMAZON.COM/skkodali/agl-yocto/external/meta-openembedded/meta-perl  6
-meta-security         /home/ANT.AMAZON.COM/skkodali/agl-yocto/meta-agl/meta-security  60
-meta-app-framework    /home/ANT.AMAZON.COM/skkodali/agl-yocto/meta-agl/meta-app-framework  70
-meta                  /home/ANT.AMAZON.COM/skkodali/agl-yocto/external/poky/meta  5
-meta-poky             /home/ANT.AMAZON.COM/skkodali/agl-yocto/external/poky/meta-poky  5
+meta-oe               /home/ubuntu/agl-yocto/external/meta-openembedded/meta-oe  6
+meta-multimedia       /home/ubuntu/agl-yocto/external/meta-openembedded/meta-multimedia  6
+meta-networking       /home/ubuntu/agl-yocto/external/meta-openembedded/meta-networking  5
+meta-python           /home/ubuntu/agl-yocto/external/meta-openembedded/meta-python  7
+meta-filesystems      /home/ubuntu/agl-yocto/external/meta-openembedded/meta-filesystems  6
+meta-agl-profile-core  /home/ubuntu/agl-yocto/meta-agl/meta-agl-profile-core  80
+meta-agl-distro       /home/ubuntu/agl-yocto/meta-agl/meta-agl-distro  70
+meta-agl-bsp          /home/ubuntu/agl-yocto/meta-agl/meta-agl-bsp  60
+meta-security         /home/ubuntu/agl-yocto/external/meta-security  8
+meta-perl             /home/ubuntu/agl-yocto/external/meta-openembedded/meta-perl  6
+meta-security         /home/ubuntu/agl-yocto/meta-agl/meta-security  60
+meta-app-framework    /home/ubuntu/agl-yocto/meta-agl/meta-app-framework  70
+meta                  /home/ubuntu/agl-yocto/external/poky/meta  5
+meta-poky             /home/ubuntu/agl-yocto/external/poky/meta-poky  5
 
 ```
 #### Creating a custom layer
@@ -96,22 +96,22 @@ meta-srikanth/
 NOTE: Starting bitbake server...
 layer                 path                                      priority
 ==========================================================================
-meta-oe               /home/ANT.AMAZON.COM/skkodali/agl-yocto/external/meta-openembedded/meta-oe  6
-meta-multimedia       /home/ANT.AMAZON.COM/skkodali/agl-yocto/external/meta-openembedded/meta-multimedia  6
-meta-networking       /home/ANT.AMAZON.COM/skkodali/agl-yocto/external/meta-openembedded/meta-networking  5
-meta-python           /home/ANT.AMAZON.COM/skkodali/agl-yocto/external/meta-openembedded/meta-python  7
-meta-filesystems      /home/ANT.AMAZON.COM/skkodali/agl-yocto/external/meta-openembedded/meta-filesystems  6
-meta-agl-profile-core  /home/ANT.AMAZON.COM/skkodali/agl-yocto/meta-agl/meta-agl-profile-core  80
-meta-agl-distro       /home/ANT.AMAZON.COM/skkodali/agl-yocto/meta-agl/meta-agl-distro  70
-meta-agl-bsp          /home/ANT.AMAZON.COM/skkodali/agl-yocto/meta-agl/meta-agl-bsp  60
-meta-security         /home/ANT.AMAZON.COM/skkodali/agl-yocto/external/meta-security  8
-meta-perl             /home/ANT.AMAZON.COM/skkodali/agl-yocto/external/meta-openembedded/meta-perl  6
-meta-security         /home/ANT.AMAZON.COM/skkodali/agl-yocto/meta-agl/meta-security  60
-meta-app-framework    /home/ANT.AMAZON.COM/skkodali/agl-yocto/meta-agl/meta-app-framework  70
-meta                  /home/ANT.AMAZON.COM/skkodali/agl-yocto/external/poky/meta  5
-meta-poky             /home/ANT.AMAZON.COM/skkodali/agl-yocto/external/poky/meta-poky  5
-meta-srikanth         /home/ANT.AMAZON.COM/skkodali/agl-yocto/meta-srikanth  6
-skkodali@ua51e92cceac452:~/agl-yocto/build$
+meta-oe               /home/ubuntu/agl-yocto/external/meta-openembedded/meta-oe  6
+meta-multimedia       /home/ubuntu/agl-yocto/external/meta-openembedded/meta-multimedia  6
+meta-networking       /home/ubuntu/agl-yocto/external/meta-openembedded/meta-networking  5
+meta-python           /home/ubuntu/agl-yocto/external/meta-openembedded/meta-python  7
+meta-filesystems      /home/ubuntu/agl-yocto/external/meta-openembedded/meta-filesystems  6
+meta-agl-profile-core  /home/ubuntu/agl-yocto/meta-agl/meta-agl-profile-core  80
+meta-agl-distro       /home/ubuntu/agl-yocto/meta-agl/meta-agl-distro  70
+meta-agl-bsp          /home/ubuntu/agl-yocto/meta-agl/meta-agl-bsp  60
+meta-security         /home/ubuntu/agl-yocto/external/meta-security  8
+meta-perl             /home/ubuntu/agl-yocto/external/meta-openembedded/meta-perl  6
+meta-security         /home/ubuntu/agl-yocto/meta-agl/meta-security  60
+meta-app-framework    /home/ubuntu/agl-yocto/meta-agl/meta-app-framework  70
+meta                  /home/ubuntu/agl-yocto/external/poky/meta  5
+meta-poky             /home/ubuntu/agl-yocto/external/poky/meta-poky  5
+meta-srikanth         /home/ubuntu/agl-yocto/meta-srikanth  6
+srikanth@ubuntu:~/agl-yocto/build$
 
 
 ================================================================
@@ -176,7 +176,7 @@ Loading cache: 100% |###########################################################
 Loaded 3572 entries from dependency cache.
 Parsing recipes: 100% |##########################################################################################################################################################################################################################################| Time: 0:00:00
 Parsing of 2402 .bb files complete (2401 cached, 1 parsed). 3573 targets, 291 skipped, 1 masked, 0 errors.
-WARNING: No bb files matched BBFILE_PATTERN_agl-distro '^/home/ANT.AMAZON.COM/skkodali/agl-yocto/meta-agl/meta-agl-distro/'
+WARNING: No bb files matched BBFILE_PATTERN_agl-distro '^/home/ubuntu/agl-yocto/meta-agl/meta-agl-distro/'
 NOTE: Resolving any missing task queue dependencies
 
 Build Configuration:
@@ -254,7 +254,7 @@ You will see the below output.
 ```
 Loading cache: 100% |############################################################################################################################################################################################################################################| Time: 0:00:00
 Loaded 3573 entries from dependency cache.
-WARNING: No bb files matched BBFILE_PATTERN_agl-distro '^/home/ANT.AMAZON.COM/skkodali/agl-yocto/meta-agl/meta-agl-distro/'
+WARNING: No bb files matched BBFILE_PATTERN_agl-distro '^/home/ubuntu/agl-yocto/meta-agl/meta-agl-distro/'
 NOTE: Resolving any missing task queue dependencies
 
 Build Configuration:
@@ -310,7 +310,7 @@ core-image-srikanth-qemux86-64-20200901184604.rootfs.ext4    core-image-srikanth
 bitbake -c listtasks helloworld
 Loading cache: 100% |############################################################################################################################################################################################################################################| Time: 0:00:00
 Loaded 3573 entries from dependency cache.
-WARNING: No bb files matched BBFILE_PATTERN_agl-distro '^/home/ANT.AMAZON.COM/skkodali/agl-yocto/meta-agl/meta-agl-distro/'
+WARNING: No bb files matched BBFILE_PATTERN_agl-distro '^/home/ubuntu/agl-yocto/meta-agl/meta-agl-distro/'
 NOTE: Resolving any missing task queue dependencies
 
 Build Configuration:
